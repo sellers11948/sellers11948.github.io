@@ -40,12 +40,11 @@
         createCollectable(type.steve, 200, 170, 6, 0.7);
         
         
-        
-        // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////
         createCollectible(type.db, 200, 170, 6, 0.7);
         createCollectible(type.max, 200, 170, 6, 0.7);
         createCollectibe(type.kennedi, 200, 170, 6, 0.7);
+        // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////
     };
     collectable.init = init;
 })(window);
