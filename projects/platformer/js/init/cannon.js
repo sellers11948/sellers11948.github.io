@@ -32,6 +32,9 @@
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
+        createCannon("top", 450);
+        createCannon("left", 300, 1000);
+        createCannon("right", 350);
     };
     cannon.init = init;
 })(window);
