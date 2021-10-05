@@ -34,7 +34,7 @@
         ////////////////////////////////////////////////////////////////////////
         createCannon("top", 450);
         createCannon("left", 300, 1000);
-        createCannon("right", 350);
+        createCannon("right", 300, 1000);
     };
     cannon.init = init;
 })(window);
